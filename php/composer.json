@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Src\\Container\\": "src/container",
+            "Src\\Controller\\": "src/controller",
+            "Src\\Printer\\": "src/printer"
+        }
+    }
+}
